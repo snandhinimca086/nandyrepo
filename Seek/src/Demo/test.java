@@ -1,9 +1,6 @@
 package Demo;
 
-public class test {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		import java.awt.AWTException;
 		import java.sql.SQLException;
 
@@ -12,7 +9,7 @@ public class test {
 		import org.openqa.selenium.chrome.ChromeDriver;
 		import org.testng.annotations.Test;
 
-		public class test1 {
+		public class testing {
 			
 			@Test(priority = 0)
 			public void NewApp() throws SQLException, ClassNotFoundException, InterruptedException, AWTException {
@@ -25,13 +22,8 @@ public class test {
 						
 						 driver.findElement(By.xpath("//*[@id='search-input']")).sendKeys("Test");
 						 Thread.sleep(5000);
-						 
-						
-						//*[@id="search-button"]
-						 
-						 /*driver.findElement(By.xpath("")).click();
-						 Thread.sleep(5000);*/
-						 
+						 						
+										 
 						 driver.findElement(By.xpath("//*[@id=\'search-button\']")).click();
 						 Thread.sleep(5000);
 	}
